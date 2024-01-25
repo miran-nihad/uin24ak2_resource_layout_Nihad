@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E1E5EE;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #fff;
+    width: 80%;
+    margin: 8rem;
+    padding: 0;
+}
+
+#container{
+    background-color: #E1E5EE;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+#container button{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #2A324B;
+    color: #fff;
+    border: none;
+    min-width: 10px;
+    height: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: medium;
+}
+
+#container button:not(.active):hover {
+    background-color: #fff;
+    color: #2A324B;
+}
+
+#container button.active {
+    background-color: #2A324B;
+}
+
+#innhold{
+    text-align: left;
+    padding: 80px;
+    max-height: 400px;
+    color: #2A324B;
+    max-width: 100%;
+}
+#innhold h2, #innhold p, #innhold ul {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+
