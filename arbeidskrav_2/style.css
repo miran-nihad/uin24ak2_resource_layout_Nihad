@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: large;
     background-color: #E1E5EE;
     margin: 0;
     padding: 0;
@@ -23,16 +24,19 @@ main {
 }
 
 #container button{
-    width: 100%;
-    padding: 10px 15px;
     background-color: #2A324B;
     color: #fff;
+    width: 100%;
+    font-size: large;
+    height: 85px;
     border: none;
-    min-width: 10px;
-    height: 80px;
     cursor: pointer;
     transition: 0.3s;
-    font-size: medium;
+}
+
+#container button:focus{
+    background-color: #fff;
+    color: #2A324B;
 }
 
 #container button:not(.active):hover {
@@ -40,20 +44,18 @@ main {
     color: #2A324B;
 }
 
-#container button.active {
-    background-color: #2A324B;
-}
-
 #innhold{
+    color: #2A324B;
     text-align: left;
     padding: 80px;
     max-height: 400px;
-    color: #2A324B;
     max-width: 100%;
 }
+
 #innhold h2, #innhold p, #innhold ul {
+    width: 80%;
     display: inline-block;
     text-align: left;
-    width: 80%;
 }
+
 
